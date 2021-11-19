@@ -14,7 +14,7 @@ function onLoginSubmit(event) {
 }
 //fun은  username이라는 인자를 하나 받고있고
 function paintGreeting(username) {
-  greeting.innerText = `Hello ${username}` //h1요소안에 `Hello ${username}` 텍스트를 추가
+  greeting.innerText = `${username}` //h1요소안에 `Hello ${username}` 텍스트를 추가
   greeting.classList.remove(HIDDEN_CLASSNAME) //h1요소로부터 hidden이라는 클래스를 제거
 }
 //실행되면 localStorage에서 savedUsername값을 얻으려고함
